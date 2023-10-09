@@ -5,12 +5,16 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+body{
+    min-width: 375px;
+}
 header{
     text-align: center;
     padding: 10px;
     background-color: orangered;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    min-width: 375px;
+    width: 100vw;
 
 }
 main{
@@ -34,15 +38,15 @@ p {
 
 
 .container {
-    text-align: center;
     display: flex;
-    
+    text-align: center;
+    justify-content: center;
 }
 
 button {
-    width: 50%;
+    width: 10.5rem;
     margin: 10px;
-    padding: 50px;
+    padding: 45px;
     font-size: 1.2rem;
     cursor: pointer;
     background-color: orangered;
